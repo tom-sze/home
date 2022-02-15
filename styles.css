@@ -4,17 +4,17 @@
 .light-theme {
     --bgColor: white;
     --fontColor: #161616;
-    --secondaryColor: #f5f5f5;
     --buttonHover: #757575;
     --shadowColor: #ccc;
+    --navColor: rgba(255, 255, 255, 0.5);
 }
 
 .dark-theme {
     --bgColor: black;
     --fontColor: #e4e4e4;
-    --secondaryColor: #141414;
     --buttonHover: #a7a7a7;
     --shadowColor: #333333;
+    --navColor: rgba(0, 0, 0, 0.2);
 }
 
 * {
@@ -42,10 +42,6 @@
     animation: fade-in-top .6s cubic-bezier(.39,.575,.565,1.000) both;
     align-items: center;
     min-height: 100vh;
-}
-
-.welcome {
-    margin-bottom: 50px;
 }
 
 .app-area {
@@ -86,9 +82,13 @@
 
 h1 {
     font-weight: 300;
-    padding-top: 100px;
+    margin-top: 100px;
     font-size: 70px;
     text-align: center;
+}
+
+.welcome {
+    margin-bottom: 50px;
 }
 
 h2 {
@@ -120,8 +120,7 @@ p {
     top: 0;
     width: 100%;
     height: 100px;
-    transition: top 0.3s;
-    background-color: rgba(255, 255, 255, 0);  
+    background-color: var(--navColor);  
     backdrop-filter: blur(5px);
     display: flex;
 }
@@ -149,10 +148,6 @@ button {
     font-weight: 300;
     font-size: 18px;
     background-color: #ffffff00;
-}
-
-#about-section, #about-section > *{
-    background-color: var(--secondaryColor);
 }
 
 button {
