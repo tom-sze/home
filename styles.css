@@ -54,7 +54,7 @@ section {
 .icon {
     width: 100px;
     margin: 20px;
-    margin-left: 40px;
+    margin-left: 30px;
     margin-right: 0px;
 }
 
@@ -62,7 +62,7 @@ h1 {
     font-weight: 300;
     margin-top: 120px;
     margin-bottom: 35px;
-    font-size: 70px;
+    font-size: max(50px, 5vw);
     text-align: center;
 }
 
@@ -70,14 +70,14 @@ h2 {
     font-weight: 400;
     margin-left: 20px;
     margin-bottom: 8px;
-    font-size: 28px;
+    font-size: max(25px, 2vw);
     text-align: left;
 }
 
 h3 {
     font-weight: 400;
     margin-left: 20px;
-    font-size: 18px;
+    font-size: max(17px, 1.3vw);
     text-align: left;
     color: rgb(155, 155, 155);
 }
@@ -91,16 +91,20 @@ h3 {
     font-size: 18px;
 }
 
+.logo {
+    width: max(120px, 10vw);
+}
+
 h4 {
     font-weight: 300;
-    font-size: 70px;
-    margin-top: 40px;
+    font-size: max(60px, 5vw);
+    margin-top: 20px;
     text-align: center;
 }
 
 p {
     font-weight: 200;
-    font-size: 24px;
+    font-size: max(22px, 2vw);
     margin: 50px;
     margin-top: 20px;
     text-align: center;
@@ -153,14 +157,14 @@ button {
     flex-wrap: wrap;
     flex-shrink: 0;
     justify-content: center;
-    margin: 50px;
-    margin-top: 20px;
+    margin: 20px;
 }
 
 .feature-box {
     background-color: white;
     border-radius: 10px;
-    margin: 25px;
+    margin: 15px;
+    
     max-width: 400px;
 }
 
