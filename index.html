@@ -1,49 +1,35 @@
 <!DOCTYPE html>
-<html lang="en" class="light-theme">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <title>Clean</title>
+    <title>Home</title>
     <link rel="stylesheet" href="styles.css">
     <script src="script.js"></script>
 </head>
 
 
 <body>
-    <div id="navbar">
-        <button onclick="scrollSmoothTo('home-section')">Clean</button>
-        <button class="about-button" onclick="scrollSmoothTo('about-section')">About</button>
-        <div class="theme-toggle" onclick="toggleTheme()"></div>
-    </div>
     <section id="home-section">
         <h1 class="welcome">Welcome.</h1>
         <div class="app-area">
-            <a class="app-item" href="notes/notes.html">
-                <h2>Notes</h2>
-                <h3>A note-taking app</h3>
+            <a class="app-item" href="notes.html">
+                <img class="icon" src="notes_logo.svg">
+                <div class="app-text">
+                    <h2>Notes</h2>
+                    <h3>A cross-platform note-taking app</h3>
+                </div>
             </a>
-            <a class="app-item">
-                <div class="icon"></div>
-                <h2>TBA</h2>
-                <h3>More coming soon...</h3>
-            </a>
-            <a class="app-item">
-                <div class="icon"></div>
-                <h2>TBA</h2>
-                <h3>More coming soon...</h3>
+            <a class="app-item" href="break.html">
+                <img class="icon" src="break_logo.svg">
+                <div class="app-text">
+                    <h2>Break</h2>
+                    <h3>A break reminder app for mac</h3>
+                </div>
             </a>
         </div>
-        <div class="arrow"></div>
     </section>
-    <section id="about-section">
-        <h1>About</h1>
-        <p>
-            We are a small non-profit team based in Toronto with a goal of creating simple, free apps
-            <br>no ads • no hidden fees • no tracking<br><br>
-            Although our prioritization of low-costs may result in somewhat limited
-            features within our apps, we will always strive to deliver an excellent experience.
-        </p>
-    </section>
+    
 
 </body>
 
