@@ -141,14 +141,14 @@ button {
     background-color: #fff7e3;
 }
 
-.break-button:hover {
+.pause-button:hover {
     cursor: pointer;
     border-color: #6cc9b6;
     color: #6cc9b6;
     transition: 0.3s;
 }
 
-#break-features, #break-features > *{
+#pause-features, #pause-features > *{
     background-color: #effff9;
 }
 
@@ -164,7 +164,6 @@ button {
     background-color: white;
     border-radius: 10px;
     margin: 15px;
-    
     max-width: 400px;
 }
 
